@@ -1,0 +1,45 @@
+<svg width="100%" viewBox="0 0 1000 440" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="g1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="rnd"><rect x="0" y="0" width="1000" height="440" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#rnd)">
+    <rect x="0" y="0" width="1000" height="440" fill="#0A0A12"/>
+    <ellipse cx="920" cy="20" rx="240" ry="140" fill="url(#g1)"/>
+    <ellipse cx="60" cy="420" rx="240" ry="140" fill="url(#g2)"/>
+    <rect x="0.5" y="0.5" width="999" height="439" rx="18" fill="none" stroke="#22232f"/>
+
+    <text x="500" y="42" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="6" fill="#7DE0D3">FEATURED WORK</text>
+
+    <!-- ResearchMind -->
+    <rect x="50" y="68" width="900" height="98" rx="14" fill="#0F0F18" stroke="#1E1F2B"/>
+    <circle cx="80" cy="98" r="5" fill="#2DD4BF"/>
+    <text x="105" y="103" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#F5F1EA">ResearchMind</text>
+    <text x="105" y="126" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#9CA8B4">Searches the web in real time and synthesizes structured, cited reports —</text>
+    <text x="105" y="146" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#9CA8B4">closes the gap between asking a chatbot and trusting the answer.</text>
+    <text x="920" y="103" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="12" fill="#7DE0D3">Llama 3.3 70B &#183; Groq &#183; Streamlit</text>
+
+    <!-- Vestra -->
+    <rect x="50" y="181" width="900" height="98" rx="14" fill="#0F0F18" stroke="#1E1F2B"/>
+    <circle cx="80" cy="211" r="5" fill="#8B5CF6"/>
+    <text x="105" y="216" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#F5F1EA">Vestra</text>
+    <text x="105" y="239" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#9CA8B4">Two-stage vision-to-narrative pipeline across three analysis modes —</text>
+    <text x="105" y="259" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#9CA8B4">classifies, then writes, with editorial judgment.</text>
+    <text x="920" y="216" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="12" fill="#B79CF6">Llama 4 Scout &#183; Groq Vision &#183; Python</text>
+
+    <!-- Clarity -->
+    <rect x="50" y="294" width="900" height="98" rx="14" fill="#0F0F18" stroke="#1E1F2B"/>
+    <circle cx="80" cy="324" r="5" fill="#D4AF7A"/>
+    <text x="105" y="329" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#F5F1EA">Clarity</text>
+    <text x="105" y="352" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#9CA8B4">Closed-loop speech-to-text, empathetic reasoning, and speech —</text>
+    <text x="105" y="372" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#9CA8B4">engineered as one continuous pipeline, not three bolted-together APIs.</text>
+    <text x="920" y="329" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="12" fill="#E8C9A0">FastAPI &#183; Groq Whisper &#183; ElevenLabs</text>
+  </g>
+</svg>
