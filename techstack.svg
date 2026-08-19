@@ -1,0 +1,59 @@
+<svg width="100%" viewBox="0 0 1000 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="g1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="rnd"><rect x="0" y="0" width="1000" height="200" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#rnd)">
+    <rect x="0" y="0" width="1000" height="200" fill="#0A0A12"/>
+    <ellipse cx="80" cy="20" rx="220" ry="120" fill="url(#g1)"/>
+    <ellipse cx="920" cy="180" rx="220" ry="120" fill="url(#g2)"/>
+    <rect x="0.5" y="0.5" width="999" height="199" rx="18" fill="none" stroke="#22232f"/>
+
+    <text x="500" y="42" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="6" fill="#7DE0D3">TECH STACK</text>
+
+    <g font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#D7E4E2">
+      <rect x="220" y="84" width="90" height="32" rx="16" fill="#0E1B22" stroke="#2DD4BF" stroke-opacity="0.5"/>
+      <circle cx="240" cy="100" r="4" fill="#2DD4BF"/>
+      <text x="253" y="105">Python</text>
+
+      <rect x="325" y="84" width="95" height="32" rx="16" fill="#12101F" stroke="#8B5CF6" stroke-opacity="0.5"/>
+      <circle cx="345" cy="100" r="4" fill="#8B5CF6"/>
+      <text x="358" y="105">FastAPI</text>
+
+      <rect x="435" y="84" width="110" height="32" rx="16" fill="#1A1509" stroke="#D4AF7A" stroke-opacity="0.5"/>
+      <circle cx="455" cy="100" r="4" fill="#D4AF7A"/>
+      <text x="468" y="105">Streamlit</text>
+
+      <rect x="560" y="84" width="75" height="32" rx="16" fill="#0E1B22" stroke="#2DD4BF" stroke-opacity="0.5"/>
+      <circle cx="580" cy="100" r="4" fill="#2DD4BF"/>
+      <text x="593" y="105">Groq</text>
+
+      <rect x="650" y="84" width="130" height="32" rx="16" fill="#12101F" stroke="#8B5CF6" stroke-opacity="0.5"/>
+      <circle cx="670" cy="100" r="4" fill="#8B5CF6"/>
+      <text x="683" y="105">Llama Models</text>
+
+      <rect x="310" y="129" width="70" height="32" rx="16" fill="#1A1509" stroke="#D4AF7A" stroke-opacity="0.5"/>
+      <circle cx="330" cy="145" r="4" fill="#D4AF7A"/>
+      <text x="343" y="150">Git</text>
+
+      <rect x="395" y="129" width="90" height="32" rx="16" fill="#0E1B22" stroke="#2DD4BF" stroke-opacity="0.5"/>
+      <circle cx="415" cy="145" r="4" fill="#2DD4BF"/>
+      <text x="428" y="150">GitHub</text>
+
+      <rect x="500" y="129" width="95" height="32" rx="16" fill="#12101F" stroke="#8B5CF6" stroke-opacity="0.5"/>
+      <circle cx="520" cy="145" r="4" fill="#8B5CF6"/>
+      <text x="533" y="150">VS Code</text>
+
+      <rect x="610" y="129" width="80" height="32" rx="16" fill="#1A1509" stroke="#D4AF7A" stroke-opacity="0.5"/>
+      <circle cx="630" cy="145" r="4" fill="#D4AF7A"/>
+      <text x="643" y="150">Linux</text>
+    </g>
+  </g>
+</svg>
