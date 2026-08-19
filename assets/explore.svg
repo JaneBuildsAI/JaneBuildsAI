@@ -1,0 +1,43 @@
+<svg width="100%" viewBox="0 0 1000 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="g1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="rnd"><rect x="0" y="0" width="1000" height="180" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#rnd)">
+    <rect x="0" y="0" width="1000" height="180" fill="#0A0A12"/>
+    <ellipse cx="100" cy="10" rx="220" ry="110" fill="url(#g1)"/>
+    <ellipse cx="900" cy="170" rx="220" ry="110" fill="url(#g2)"/>
+    <rect x="0.5" y="0.5" width="999" height="179" rx="18" fill="none" stroke="#22232f"/>
+
+    <text x="500" y="40" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="6" fill="#B79CF6">CURRENTLY EXPLORING</text>
+
+    <g font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#D7E4E2">
+      <rect x="225" y="74" width="170" height="32" rx="16" fill="#0E1B22" stroke="#2DD4BF" stroke-opacity="0.5"/>
+      <circle cx="245" cy="90" r="4" fill="#2DD4BF"/>
+      <text x="258" y="95">Agentic Workflows</text>
+
+      <rect x="410" y="74" width="160" height="32" rx="16" fill="#12101F" stroke="#8B5CF6" stroke-opacity="0.5"/>
+      <circle cx="430" cy="90" r="4" fill="#8B5CF6"/>
+      <text x="443" y="95">RAG Architecture</text>
+
+      <rect x="585" y="74" width="190" height="32" rx="16" fill="#1A1509" stroke="#D4AF7A" stroke-opacity="0.5"/>
+      <circle cx="605" cy="90" r="4" fill="#D4AF7A"/>
+      <text x="618" y="95">Multimodal Pipelines</text>
+
+      <rect x="342" y="124" width="160" height="32" rx="16" fill="#0E1B22" stroke="#2DD4BF" stroke-opacity="0.5"/>
+      <circle cx="362" cy="140" r="4" fill="#2DD4BF"/>
+      <text x="375" y="145">Voice AI Systems</text>
+
+      <rect x="517" y="124" width="140" height="32" rx="16" fill="#12101F" stroke="#8B5CF6" stroke-opacity="0.5"/>
+      <circle cx="537" cy="140" r="4" fill="#8B5CF6"/>
+      <text x="550" y="145">Production ML</text>
+    </g>
+  </g>
+</svg>
