@@ -1,0 +1,14 @@
+<svg width="100%" viewBox="0 0 1000 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fbg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#05010D"/>
+      <stop offset="50%" stop-color="#12101F"/>
+      <stop offset="100%" stop-color="#05010D"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1000" height="60" rx="14" fill="url(#fbg)"/>
+  <circle cx="478" cy="24" r="3" fill="#2DD4BF"/>
+  <circle cx="490" cy="24" r="3" fill="#8B5CF6"/>
+  <circle cx="502" cy="24" r="3" fill="#D4AF7A"/>
+  <text x="500" y="44" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2" fill="#5A5F6E">janet eluwole &#183; crafted with intention</text>
+</svg>
